@@ -8,7 +8,6 @@ const main = async () => {
   await nftContract.deployed();
   console.log("Contract deployed to:", nftContract.address);
 };
-
 // エラー処理を行っています。
 const runMain = async () => {
   try {
@@ -19,5 +18,4 @@ const runMain = async () => {
     process.exit(1);
   }
 };
-
 runMain();

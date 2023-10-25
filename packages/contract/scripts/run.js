@@ -16,7 +16,6 @@ const main = async () => {
   let returnedTokenUri = await nftContract.tokenURI(0);
   console.log("tokenURI:", returnedTokenUri);
 };
-
 // エラー処理を行っています。
 const runMain = async () => {
   try {
