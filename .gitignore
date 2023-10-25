@@ -5,3 +5,4 @@
 
 # misc
 **/.DS_Store
+packages/contract/hardhat.config.js
